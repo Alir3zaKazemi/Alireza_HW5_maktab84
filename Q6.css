@@ -3,20 +3,29 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url('dark-wall-empty-room-with-plants-floor-3d-rendering.jpg');
+  background-size: cover;
 }
 
 .box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 600px;
+  width: 30%;
   height: auto;
-  background-image: linear-gradient(rgb(130, 0, 182), rgb(238, 45, 174));
+  background-image: linear-gradient(rgb(82, 148, 211), rgb(133, 123, 129));
   border-radius: 6px;
+  margin-top: 6%;
 }
 
-img {
+.l-img {
   margin-top: 5%;
+}
+
+.user,
+.pass {
+  width: 21px;
+  filter: invert(1);
 }
 
 h2 {
@@ -25,11 +34,86 @@ h2 {
 
 input {
   background-color: inherit;
+  color: white;
   border: none;
-  border-bottom: 1px solid lightgray;
-  margin-bottom: 10px;
+  height: 2rem;
+  outline: none;
+  margin-left: 5px;
 }
+
+input::placeholder {
+  color: rgb(212, 212, 212);
+}
+
+.first-input,
+.second-input {
+  border-bottom: 1px solid #555;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+  font-family: sans-serif;
+  max-width: 100%;
+}
+
+.second-input {
+  margin-bottom: 5%;
+}
+
+/* .second-input {
+  margin-top: 3%;
+} */
 
 input:active {
   border: none;
+  outline: none;
+}
+
+.remember {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: -2%;
+}
+
+label {
+  color: white;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+button {
+  margin-bottom: 5%;
+  margin-top: 3%;
+  width: 21%;
+  font-family: sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 50px;
+  border: 1px solid gray;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(167, 167, 167);
+}
+
+button:active {
+  background-color: white;
+}
+
+a {
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.input-box {
+  max-width: 90%;
 }
