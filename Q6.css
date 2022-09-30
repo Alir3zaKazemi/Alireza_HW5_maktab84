@@ -3,10 +3,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url('dark-wall-empty-room-with-plants-floor-3d-rendering.jpg');
+  background-image: url('imgs/dark-wall-empty-room-with-plants-floor-3d-rendering.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  min-height: 100vh;
 }
 
 .box {
