@@ -16,9 +16,10 @@ body {
   align-items: center;
   min-width: 300px;
   height: auto;
-  background-image: linear-gradient(rgb(82, 148, 211), rgb(133, 123, 129));
+  background-image: linear-gradient(rgb(60, 133, 202), rgb(133, 123, 129));
   border-radius: 6px;
   margin-top: 6%;
+  box-shadow: 0px 0px 20px 15px rgba(34, 41, 65, 0.788);
 }
 
 .l-img {
