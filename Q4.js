@@ -10,6 +10,6 @@ const rightPixel = prompt("enter a num az distance to right (in pixels)");
 arr[0].right = rightPixel;
 
 let span = document.getElementsByTagName("span")[0];
-span.style.top = arr[0].top + "%";
-span.style.right = arr[0].right + "%";
+span.style.top = arr[0].top + "px";
+span.style.right = arr[0].right + "px";
 span.textContent = `${arr[0].txt}`;
